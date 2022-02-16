@@ -5,9 +5,11 @@
 
     .nav-element{
         width:88%;
+        padding-right: 10px;
     }
     .nav-ul {
         width: 58%;
+        
         /* background-color: aqua; */
     }
 
@@ -40,7 +42,9 @@
 @media only screen and (max-width:800px){
 
     .nav-ul {
-        width: 64%;
+        width: 67%;
+        text-align:center;
+      
         /* background-color: aqua; */
     }
 }
@@ -63,10 +67,11 @@
         width: 100%;
     }
         
+   
 
     .header-1 {
         font-size: 27px;
-        padding: 20px 0px;
+        padding: 50px 0px;
     }
 
     /* Boeing section  */
@@ -220,24 +225,30 @@
 
 @media only screen and (max-width:500px){
 
-    .nav-ul {
-        width: 60%;
-        display: none;
-        text-align: center;
-        border-radius: 9px;
-        /* background-color: #e8e3e3; */
-    }
-
+   
     .nav-element {
+        display:none;
         width: 100%;
         background: lightgrey;
         border-radius: 10px;
         padding: 20px 0px;
     }
 
-    .toggle-button{
-        display: flex;
-        padding-top: 10px;
+    .nav-ul {
+        width: 100%;
+        display: block;
+    
     }
 
+    .toggle-button{
+        display: flex;
+    }
+
+    .get-started-btn{
+        float:right;
+    }
+
+        .nav-element.active{
+            display: block;
+        }
 }
