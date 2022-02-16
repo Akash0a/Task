@@ -242,6 +242,7 @@
 
     .toggle-button{
         display: flex;
+        cursor: pointer;
     }
 
     .get-started-btn{

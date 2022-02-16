@@ -41,6 +41,15 @@ body{
     /* background-color: aqua; */
     
 }
+.nav-ul a{
+   text-decoration: none;
+   color: black;
+}
+.nav-ul a:hover{
+   background-color: rgb(117, 207, 204);
+}
+
+
 
 .toggle-button{
     width: 41px;
